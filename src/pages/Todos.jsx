@@ -44,17 +44,6 @@ function Todos() {
             setItems([...items, newItem]);
 
         }
-
-            // if(editData) {
-            //     console.log("This item already exists!");
-            // } else {
-            //     const newItem = {
-            //         id: new Date().getTime(), // Generate a unique ID
-            //         name: inputdata,
-            //     };
-            //     setItems([...items, newItem]);
-            // }
-            // }
         setInputData("");
     };
 
